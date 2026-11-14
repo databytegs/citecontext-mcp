@@ -61,12 +61,12 @@ Add to your `claude_desktop_config.json`:
 }
 ```
 
-### 3. Smithery CLI
+### 3. Claude Code CLI
 
-Install automatically via [Smithery](https://smithery.ai/server/citecontext-mcp):
+Add the server directly to Claude Code CLI:
 
 ```bash
-npx -y @smithery/cli install citecontext-mcp --client claude
+claude mcp add citecontext npx -y citecontext-mcp
 ```
 
 ### 4. Windsurf
