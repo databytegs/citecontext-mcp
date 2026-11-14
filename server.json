@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.databytegs/citecontext-mcp",
+  "title": "CiteContext GEO & AI Search Visibility",
+  "description": "Autonomous Generative Engine Optimization (GEO) audit, robots.txt AI crawler directives, /llms.txt generator, Schema JSON-LD, and zero-touch Pull Request remediations for Cursor, Claude Desktop, and Claude Code.",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "citecontext-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
