@@ -1,0 +1,51 @@
+{
+  "name": "citecontext-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) server for CiteContext — AI Search Visibility (GEO), robots.txt AI bot directives, /llms.txt, and automated PR remediations",
+  "main": "bin/cli.js",
+  "bin": {
+    "citecontext-mcp": "bin/cli.js",
+    "citecontext": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "smithery.yaml",
+    "mcp.json",
+    "glama.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "smithery",
+    "cursor",
+    "cursor-directory",
+    "glama",
+    "pulsemcp",
+    "claude-desktop",
+    "geo",
+    "generative-engine-optimization",
+    "ai-search",
+    "chatgpt-seo",
+    "llms-txt",
+    "robots-txt"
+  ],
+  "author": "CiteContext <team@citecontext.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/databytegs/citecontext-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/databytegs/citecontext-mcp/issues"
+  },
+  "homepage": "https://citecontext.com/mcp"
+}

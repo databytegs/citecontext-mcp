@@ -1,0 +1,21 @@
+# Smithery Model Context Protocol (MCP) Configuration
+# https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        description: "Optional CiteContext API key for authenticated client workspace tools (e.g. automated PR deployment)"
+      apiUrl:
+        type: string
+        default: "https://citecontext.com/api/mcp/run"
+        description: "CiteContext backend API gateway URL"
+  commandFunction:
+    command: "npx"
+    args: ["-y", "citecontext-mcp"]
+    env:
+      CITECONTEXT_API_KEY: "{{apiKey}}"
+      CITECONTEXT_API_URL: "{{apiUrl}}"

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://glama.ai/mcp/schema.json",
+  "name": "citecontext",
+  "title": "CiteContext GEO & AI Search Visibility",
+  "description": "Autonomous Generative Engine Optimization (GEO) audit, robots.txt AI crawler directives, /llms.txt generator, and zero-touch PR deployment for Cursor and Claude Desktop.",
+  "homepage": "https://citecontext.com/mcp",
+  "repository": "https://github.com/databytegs/citecontext-mcp",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio",
+    "command": "npx",
+    "args": ["-y", "citecontext-mcp"]
+  },
+  "tools": [
+    {
+      "name": "geo_audit_domain",
+      "description": "Run an 8-category Generative Engine Optimization (GEO) audit on any website domain."
+    },
+    {
+      "name": "check_ai_bot_access",
+      "description": "Check if OAI-SearchBot, Claude-SearchBot, PerplexityBot are permitted in robots.txt."
+    },
+    {
+      "name": "generate_llms_txt",
+      "description": "Generate standard, token-efficient /llms.txt markdown context index."
+    },
+    {
+      "name": "generate_robots_txt",
+      "description": "Generate robots.txt optimized for AI search engines while blocking mass scrapers."
+    },
+    {
+      "name": "generate_schema_json",
+      "description": "Generate Schema.org Organization and SoftwareApplication JSON-LD markup."
+    },
+    {
+      "name": "audit_page_geo",
+      "description": "Deep page-level Princeton KDD citability and heading architecture audit."
+    },
+    {
+      "name": "deploy_github_pr",
+      "description": "Deploy verified GEO remediation files directly to a repository via automated Pull Request."
+    },
+    {
+      "name": "get_remediation_patch",
+      "description": "Generate immediate local file patches for robots.txt, llms.txt, and schema.jsonld."
+    }
+  ]
+}

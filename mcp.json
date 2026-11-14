@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "citecontext": {
+      "command": "npx",
+      "args": ["-y", "citecontext-mcp"],
+      "env": {
+        "CITECONTEXT_API_URL": "https://citecontext.com/api/mcp/run"
+      }
+    }
+  }
+}
