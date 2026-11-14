@@ -6,6 +6,9 @@
   "homepage": "https://citecontext.com/mcp",
   "repository": "https://github.com/databytegs/citecontext-mcp",
   "license": "MIT",
+  "maintainers": [
+    "databytegs"
+  ],
   "transport": {
     "type": "stdio",
     "command": "npx",
